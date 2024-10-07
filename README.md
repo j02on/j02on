@@ -1,31 +1,124 @@
-<div align= "center">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .line {
+        background-color: rgb(179, 179, 179);
+        border: none;
+        height: 1px;
+      }
+      .stackAll {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 10px;
+      }
+      .stackTitle {
+        font-size: 24px;
+        font-weight: 600;
+      }
+      .stackContents {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .statsContents {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .all {
+        width: 100vw;
+        display: flex;
+        justify-content: left;
+        gap: 100px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      * {
+        font-family: 'MaruBuri';
+      }
+
+@font-face {
+font-family: 'MaruBuri';
+src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
+src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf) format("truetype");
+}
+
+@font-face {
+font-family: 'MaruBuriSemiBold';
+src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.eot);
+src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+font-family: 'MaruBuriBold';
+src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot);
+src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.ttf) format("truetype");
+}
+
+@font-face {
+font-family: 'MaruBuriLight';
+src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot);
+src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.ttf) format("truetype");
+}
+
+@font-face {
+font-family: 'MaruBuriExtraLight';
+src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot);
+src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.ttf) format("truetype");
+}
+</style>
+
+  </head>
+  <body>
+    <div>
+      <h1>Hello! I am Jiyeon Park, growing every day.😊</h1>
+      <p>I am studying hard as a front-end developer.</p>
+      <hr class="line" />
+      <div class="all">
+        <div class="stackAll">
+          <p class="stackTitle">⚙️ stack</p>
+          <div class="stackContents">
+            <div>html</div>
+            <div>css</div>
+            <div>javascript</div>
+            <div>typescript</div>
+            <div>react js</div>
+            <div>styled-components</div>
+            <div>react-router-dom</div>
+            <div>vite</div>
+            <div>figma</div>
+            <div>c</div>
+          </div>
         </div>
-    <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 안녕하세요😊 </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 프론트엔드 개발자를 꿈꾸는 박지연입니다❤️ </div> 
+      <div class="stackAll">
+          <p class="stackTitle">⭐️ link</p>
+          <div class="stackContents">
+            <a target="_blank" href="https://www.instagram.com/h_yy.0n/">instargram</a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=61557320422273">facebook</a>
+            <a target="_blank" href="https://velog.io/@pjylove08/posts">velog</a>
+          </div>
+        </div>
+        <div class="stackAll">
+          <p class="stackTitle">⭐️ stats</p>
+          <div class="statsContents">
+            <img src="https://github-readme-stats.vercel.app/api?username=j02on&bg_color=60,ffffff,ffffff&title_color=000000&text_color=000000"/>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=j02on&layout=compact&bg_color=60,ffffff,ffffff&title_color=000000&text_color=000000"/>
+          </div>
+        </div>
+      </div>
     </div>
-    <div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
-    <div style="margin: ; text-align: left;" "text-align: left;"> <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white">
-          <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
-          <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
-          <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
-          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
-          <br/></div>
     </div>
-    <div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
-    <div style="text-align: left;"> <a href=https://www.facebook.com/profile.php?id=61557320422273> <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white&link=https://www.facebook.com/profile.php?id=61557320422273"> </a>
-         <a href=https://www.instagram.com/h_yy.0n/> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white&link=https://www.instagram.com/h_yy.0n/"> </a>
-         <a href=https://www.notion.so/e0d9acf8a2514e8682829936185cf828> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white&link=https://www.notion.so/e0d9acf8a2514e8682829936185cf828"> </a>
-         <a href=mailto:pjylove08@dsm.hs.kr> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:pjylove08@dsm.hs.kr"> </a>
-          </div>  <br> 
-    <div style="text-align: left;"> <a href="https://hits.seeyoufarm.com"> <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fj02on%2F&count_bg=%23000000&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=GitHub&edge_flat=false"/></a>
-       </div> 
-    </div>
-    <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2> <div style="text-align: left;"> <img src="https://github-readme-stats.vercel.app/api?username=j02on&bg_color=60,ffffff,ffffff&title_color=000000&text_color=000000"
-         /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=j02on&layout=compact&bg_color=60,ffffff,ffffff&title_color=000000&text_color=000000"
-           /> </div> 
-    </div>
-    
+    <script></script>
+  </body>
+</html>
