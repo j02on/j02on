@@ -1,8 +1,7 @@
 # Hello! I am Jiyeon Park, growing every day.😊
 
-I am studying hard as a front-end developer.
+> I am studying hard as a front-end developer.
 
----
 
 ## ⚙️ Stack
 - HTML
