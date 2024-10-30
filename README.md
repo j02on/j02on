@@ -23,5 +23,5 @@
 - [Velog](https://velog.io/@pjylove08/posts)
 
 ## ⭐️ Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=j02on&bg_color=60,ffffff,ffffff&title_color=000000&text_color=000000)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=사용자ID&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=j02on&layout=compact&bg_color=60,ffffff,ffffff&title_color=000000&text_color=000000)
