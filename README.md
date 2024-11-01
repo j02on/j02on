@@ -27,4 +27,3 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=j02on&layout=compact&bg_color=60,ffffff,ffffff&title_color=000000&text_color=000000)
 
 
-![Comments](https://comment.injunweb.com/api/user/j02on/svg?)](https://comment.injunweb.com/j02on)
