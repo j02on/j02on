@@ -26,4 +26,11 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=j02on&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=j02on&layout=compact&bg_color=60,ffffff,ffffff&title_color=000000&text_color=000000)
 
+<a href="https://github.com/devxb/gitanimals">
+<img
+  src="https://render.gitanimals.org/farms/j02on"
+  width="600"
+  height="300"
+/>
+</a>
 
