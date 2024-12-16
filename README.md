@@ -12,6 +12,7 @@
 - TypeScript
 - React.js
 - Styled-components
+- next js
 - React Router DOM
 - Vite
 - Figma
